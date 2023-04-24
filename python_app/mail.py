@@ -1,9 +1,13 @@
 from email.message import EmailMessage
+import sys
+sys.path.append('../env')
+from env import password
 import ssl
 import smtplib
 
+
 email_sender = 'deevoetest@gmail.com'
-email_password = 'boehltmpvbyvohot'
+email_password = password
 
 
 email_receiver = 'toyiteh243@ippals.com'
